@@ -1,0 +1,800 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	width: 100%;
+	background-color: #000000;
+	margin: 0;
+    padding: 0;
+}
+#header{
+	width: 100%;
+	height: 120px;
+	background-color: #7D7777;
+	position: relative;
+    margin: 0;
+	
+}
+#im{
+padding-left: 30px;
+	float: left;
+
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 40%;
+  background: #f1f1f1;
+	margin-top: 40px;
+	margin-left: 90px;
+	display: inline;
+}
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding-left: 15px;
+	padding-top: 5px;
+	background-color:white;
+height:450px;
+	left:0;
+	top:0;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+	background-color:white;
+	position: relative;
+
+}
+
+form.example button {
+  float: left;
+  width: 8%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; 
+  cursor: pointer;
+  margin-top: 40px;
+}
+#ico a {
+	padding-left: 10px;
+	padding-top: 45px;
+    color: black;
+	display: inline;
+	
+}
+#slide{
+height:100px;
+text-align:center;
+margin-right: 30px;
+	position: relative;
+	padding-top: 0px;
+}
+h2{
+	color: #FFFFFF;
+	padding-top: 320px;
+	font-family:"monsieur-la-doulaise";
+	font-size:50px;
+}
+#star{
+	z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  left: 170px;
+  top: 1035px;
+	opacity: 1;
+	 background-color: rgba(0, 0, 0, 0.5); 
+	width:200px;
+	text-align: center;
+}
+#crow{
+	z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  left: 670px;
+  top: 1010px;
+	opacity: 1;
+	 background-color: rgba(0, 0, 0, 0.5); 
+	width:200px;
+	text-align: center;
+}
+#sun{
+	z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  left: 1200px;
+  top: 1035px;
+	opacity: 1;
+	 background-color: rgba(0, 0, 0, 0.5); 
+	width:200px;
+	text-align: center;
+}
+#ant{
+	color: #FFFFFF;
+	padding-top: 2px;
+	font-family:"monsieur-la-doulaise";
+	font-size:60px;
+}
+* {
+    box-sizing: border-box;
+}
+
+.column2 {
+    float: left;
+    width: 33.33%;
+    padding-left: 15px;
+	padding-top: 5px;
+	background-color: #FFFFFF;
+    height:450px;
+	left:0;
+	top:0;
+}
+
+/* Clearfix (clear floats) */
+.row2::after {
+    content: "";
+    clear: both;
+    display: table;
+	background-color: #FFFFFF;
+	position: relative;
+
+}
+#clock{
+	z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  left: 120px;
+  top: 1680px;
+	opacity: 1;
+	 background-color: rgba(0, 0, 0, 0.5); 
+	width:200px;
+	text-align: center;
+}
+#writ{
+	z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  left: 650px;
+  top: 1680px;
+	opacity: 1;
+	 background-color: rgba(0, 0, 0, 0.5); 
+	width:200px;
+	text-align: center;
+}
+#map{
+		z-index: 100;
+     position: absolute;
+     color: white;
+    font-size: 24px;
+    font-weight: bold;
+    left: 1200px;
+    top: 1680px;
+	opacity: 1;
+    background-color: rgba(0, 0, 0, 0.5); 
+	width:200px;
+	text-align: center;
+}
+
+ul #ic1 {
+	 left: 500px;
+     top: 1000px;
+	position: absolute;
+	width: 20%;
+
+}
+ul li {
+	list-style: none;
+	 left: 170px;
+     padding-top: 0px;
+	width: 20%;
+}
+ul li a{
+	position: relative;
+	display: block;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	line-height: 60px;
+	opacity: 1;
+	 background-color: rgba(0, 0, 0, 0.5); 
+	font-size: 30px;
+	color:#FFFFFF;
+	z-index: 100;
+	transition: .5s;
+	
+}
+ul li a:before{
+	content: '';
+	position: absolute;
+	background: #4C24C2;
+	transition: .5s;
+	transform: scale(.9);
+	z-index: -1;
+	 
+}
+ul li a:hover:before{
+	transform: scale(1.1);
+	box-shadow: 0 0 15px #4C24C2;
+	
+}
+ul li a:hover{
+	color: #4C24C2;
+	box-shadow: 0 0 5px #4C24C2;
+	text-shadow: 0 0 5px #4C24C2;
+	 
+}
+ul #ic2 {
+	 left: 300px;
+     top: 900px;
+	position: absolute;
+	width: 20%;
+
+}
+ul #ic3 {
+	 left: 500px;
+     top: 1000px;
+	position: absolute;
+	width: 20%;
+
+}
+ul #ic4 {
+	 left: 500px;
+     top: 1000px;
+	position: absolute;
+	width: 20%;
+
+}
+ul #ic5 {
+	 left: 500px;
+     top: 1000px;
+	position: absolute;
+	width: 20%;
+
+}
+ul #ic6 {
+	 left: 500px;
+     top: 1000px;
+	position: absolute;
+	width: 20%;
+
+}
+#dav{
+	color: #FFFFFF;
+	padding-top: 2px;
+	font-family:"monsieur-la-doulaise";
+	font-size:60px;
+}
+* {
+    box-sizing: border-box;
+}
+
+.column3 {
+    float: left;
+    width: 33.33%;
+    padding-left: 15px;
+	padding-top: 5px;
+	background-color: #FFFFFF;
+    height:450px;
+	left:0;
+	top:0;
+}
+
+/* Clearfix (clear floats) */
+.row3::after {
+    content: "";
+    clear: both;
+    display: table;
+	background-color: #FFFFFF;
+	position: relative;
+
+}
+#mon{
+	z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  left: 100px;
+  top: 2320px;
+	opacity: 1;
+	 background-color: rgba(0, 0, 0, 0.5); 
+	width:200px;
+	text-align: center;
+}
+#bel{
+	z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  left: 630px;
+  top: 2320px;
+	opacity: 1;
+	 background-color: rgba(0, 0, 0, 0.5); 
+	width:200px;
+	text-align: center;
+}
+#scap{
+	z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  left: 1150px;
+  top: 2320px;
+	opacity: 1;
+	 background-color: rgba(0, 0, 0, 0.5); 
+	width:200px;
+	text-align: center;
+}
+
+	ul #ic7 {
+	 left: 300px;
+     top: 0px;
+	position: absolute;
+	width: 20%;
+
+}
+ul #ic8 {
+	 left: 300px;
+     top: 900px;
+	position: absolute;
+	width: 20%;
+
+}
+ul #ic9 {
+	 left: 300px;
+     top: 1500px;
+	position: absolute;
+	width: 20%;
+
+}
+#fri{
+	color: #FFFFFF;
+	padding-top: 2px;
+	font-family:"monsieur-la-doulaise";
+	font-size:60px;
+}
+#se1{
+	z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  left: 150px;
+  top: 2935px;
+	opacity: 1;
+	 background-color: rgba(0, 0, 0, 0.5); 
+	width:200px;
+	text-align: center;
+}
+#wat{
+	z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  left: 690px;
+  top: 2960px;
+	opacity: 1;
+	 background-color: rgba(0, 0, 0, 0.5); 
+	width:200px;
+	text-align: center;
+}
+#se2{
+	z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  left: 1185px;
+  top: 2960px;
+	opacity: 1;
+	 background-color: rgba(0, 0, 0, 0.5); 
+	width:200px;
+	text-align: center;
+}
+* {
+    box-sizing: border-box;
+}
+
+.column4 {
+    float: left;
+    width: 33.33%;
+    padding-left: 15px;
+	padding-top: 5px;
+	background-color: #FFFFFF;
+    height:450px;
+	left:0;
+	top:0;
+}
+
+/* Clearfix (clear floats) */
+.row4::after {
+    content: "";
+    clear: both;
+    display: table;
+	background-color: #FFFFFF;
+	position: relative;
+}
+ul #ic10 {
+	 left: 300px;
+     top: 0px;
+	position: absolute;
+	width: 20%;
+
+}
+ul #ic11 {
+	 left: 300px;
+     top: 0px;
+	position: absolute;
+	width: 20%;
+
+}
+ul #ic12 {
+	 left: 300px;
+     top: 0px;
+	position: absolute;
+	width: 20%;
+
+}
+* {
+    box-sizing: border-box;
+}
+
+.column5 {
+    float: left;
+    width: 33.33%;
+    padding-left: 15px;
+	padding-top: 5px;
+	background-color: #FFFFFF;
+    height:450px;
+	left:0;
+	top:0;
+}
+
+/* Clearfix (clear floats) */
+.row5::after {
+    content: "";
+    clear: both;
+    display: table;
+	background-color: #FFFFFF;
+	position: relative;
+}
+#mic{
+	color: #FFFFFF;
+	padding-top: 2px;
+	font-family:"monsieur-la-doulaise";
+	font-size:60px;
+}
+#ida{
+	z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  left: 145px;
+  top: 3610px;
+	opacity: 1;
+	 background-color: rgba(0, 0, 0, 0.5); 
+	width:200px;
+	text-align: center;
+}
+#ton{
+	z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  left: 630px;
+  top: 3610px;
+	opacity: 1;
+	 background-color: rgba(0, 0, 0, 0.5); 
+	width:200px;
+	text-align: center;
+}
+#paul{
+	z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  left: 1175px;
+  top: 3585px;
+	opacity: 1;
+	 background-color: rgba(0, 0, 0, 0.5); 
+	width:200px;
+	text-align: center;
+}
+ul #ic13 {
+	 left: 300px;
+     top: 0px;
+	position: absolute;
+	width: 20%;
+
+}
+ul #ic14 {
+	 left: 300px;
+     top: 0px;
+	position: absolute;
+	width: 20%;
+
+}
+ul #ic15 {
+	 left: 300px;
+     top: 0px;
+	position: absolute;
+	width: 20%;
+
+}
+#pic{
+	color: #FFFFFF;
+	padding-top: 2px;
+	font-family:"monsieur-la-doulaise";
+	font-size:60px;
+}
+* {
+    box-sizing: border-box;
+}
+
+.column6 {
+    float: left;
+    width: 33.33%;
+    padding-left: 15px;
+	padding-top: 5px;
+	background-color: #FFFFFF;
+    height:450px;
+	left:0;
+	top:0;
+}
+
+/* Clearfix (clear floats) */
+.row6::after {
+    content: "";
+    clear: both;
+    display: table;
+	background-color: #FFFFFF;
+	position: relative;
+}
+#bal1{
+		z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  left: 170px;
+  top: 4210px;
+	opacity: 1;
+	 background-color: rgba(0, 0, 0, 0.5); 
+	width:200px;
+	text-align: center;
+}
+#flow{
+		z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  left: 700px;
+  top: 4211px;
+	opacity: 1;
+	 background-color: rgba(0, 0, 0, 0.5); 
+	width:200px;
+	text-align: center;
+}
+#bal2{
+		z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  left: 1175px;
+  top: 4207px;
+	opacity: 1;
+	 background-color: rgba(0, 0, 0, 0.5); 
+	width:200px;
+	text-align: center;
+}
+#pab{
+	color: #FFFFFF;
+	padding-top: 2px;
+	font-family:"monsieur-la-doulaise";
+	font-size:60px;
+}
+* {
+    box-sizing: border-box;
+}
+
+.column7 {
+    float: left;
+    width: 33.33%;
+    padding-left: 15px;
+	padding-top: 5px;
+	background-color: #FFFFFF;
+    height:450px;
+	left:0;
+	top:0;
+}
+
+/* Clearfix (clear floats) */
+.row7::after {
+    content: "";
+    clear: both;
+    display: table;
+	background-color: #FFFFFF;
+	position: relative;
+}
+#gui{
+	z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  left: 140px;
+  top: 4900px;
+	opacity: 1;
+	 background-color: rgba(0, 0, 0, 0.5); 
+	width:200px;
+	text-align: center;
+}
+#olga{
+	z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  left: 640px;
+  top: 4870px;
+	opacity: 1;
+	 background-color: rgba(0, 0, 0, 0.5); 
+	width:200px;
+	text-align: center;
+}
+#girl{
+	z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  left: 1170px;
+  top: 4870px;
+	opacity: 1;
+	 background-color: rgba(0, 0, 0, 0.5); 
+	width:200px;
+	text-align: center;
+}
+ul #ic16 {
+	 left: 300px;
+     top: 0px;
+	position: absolute;
+	width: 20%;
+}
+ul #ic17 {
+	 left: 300px;
+     top: 0px;
+	position: absolute;
+	width: 20%;
+}
+ul #ic18 {
+	 left: 300px;
+     top: 0px;
+	position: absolute;
+	width: 20%;
+}
+ul #ic19 {
+	 left: 300px;
+     top: 0px;
+	position: absolute;
+	width: 20%;
+}
+ul #ic20 {
+	 left: 300px;
+     top: 0px;
+	position: absolute;
+	width: 20%;
+}
+ul #ic21 {
+	 left: 300px;
+     top: 0px;
+	position: absolute;
+	width: 20%;
+}
+#space{
+	width: 100%;
+	height: 70px;
+	background-color:#000000;
+	position: relative;
+    margin: 0 auto;
+	display: table;
+}
+
+
+#footer{
+	width: 100%;
+	height: 70px;
+	background-color:#312F2F;
+	position: relative;
+    margin: 0px;
+	overflow: auto;
+	
+}
+#footer a{
+	 width: 100%;
+	padding: 18px;
+	color: white;
+  text-decoration: none;
+	font-size: 17px;
+  text-align: center;
+}
+#footer a:hover{
+	 background-color: #000;
+}
+#para{
+	width: 100%;
+	height: 30px;
+	background-color:#312F2F;
+	position: relative;
+    margin: 0px;
+	color: white;
+}
+#ico1 a {
+	padding-left: 150px;
+	display: inline;
+	
+}
+#ico1 a:hover{
+	background-color:#000000;
+	cursor: pointer;
+}
+#ico2 a{
+	color:forestgreen;
+	cursor: pointer;
+	width: 10%;
+	position: absolute;
+}
+#ico3 a{
+	color:forestgreen;
+	cursor: pointer;
+	width: 10%;
+	position: absolute;
+}
+#ico4 a{
+	color:forestgreen;
+	cursor: pointer;
+	width: 10%;
+	position: absolute;
+}
+#ico5 a{
+	color:forestgreen;
+	cursor: pointer;
+	width: 10%;
+	position: absolute;
+}
+#ico6 a{
+	color:forestgreen;
+	cursor: pointer;
+	width: 10%;
+	position: absolute;
+}

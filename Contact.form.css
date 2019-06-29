@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	height:100vh;
+	margin:0;
+	padding: 0;
+	text-align: center;
+	background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(loop-able-vintage-video-of-old-gramophone-playing-a-record-close-up-slow-motion-shot_rf7de_rbtx_thumbnail-full01.png);
+	background-size: cover;
+	background-position: center;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+.contact-title{
+	margin-top: 200px;
+	color: #fff;
+	text-transform: uppercase;
+	
+}
+.contact-title h1{
+	font-size: 32px;
+	line-height: 20px;
+}
+.contact-title h2{
+	font-size: 25px;
+}
+form{
+	margin-top: 20px;
+	
+}
+.form-control{
+	width: 600px;
+	background: transparent;
+	border:none;
+	outline:none;
+	border-bottom: 1px solid gray;
+	color: #fff;
+	font-size: 18px;
+	margin-bottom: 16px;
+}
+input{
+	height:45px;
+}
+form .submit{
+	background: #FFA6A8;
+	border-color: transparent;
+	color:#fff;
+	font-size:20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height: 50px;
+	margin-top: 20px;
+}
+form .submit:hover{
+	background-color:#F05A5D;
+	cursor: pointer;
+}
+#header{
+	width: 100%;
+	height: 120px;
+	background-color: #7D7777;
+	position: relative;
+    margin: 0;
+	
+}
+#im{
+padding-left: 30px;
+	float: left;
+
+}
+
+#ico a {
+	padding-left: 10px;
+	padding-top: 45px;
+    color: #000000;
+	display: inline;
+}

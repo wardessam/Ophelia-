@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Login</title>
+	<link rel="stylesheet" href="login.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+	</head>
+<body>
+	<div id="header">
+		<img id="im" src="OFFICIAL+OPHELIA+LOGO.png" alt="ophelia logo" style="height:100px; width:200px; padding-left: 40px; padding-top: 10px; "/>
+		 <div id="ico">
+		 <a href="https://plus.google.com/discover"><i class="fa fa-google-plus-square custom" style="font-size: 48px; padding-top: 36px;padding-left: 900px;"></i></a>
+		  <a href="https://www.youtube.com/"> <i class="fa fa-youtube-play custom" style="font-size: 50px;"></i></a>
+		  <a href="https://ar-ar.facebook.com/"> <i class="fa fa-facebook-square custom" style="font-size: 48px;"></i></a>
+		  <a href="https://www.pinterest.com/"> <i class="fa fa-pinterest custom" style="font-size: 48px;"></i></a>
+		  <a href="https://www.apple.com/shop/mac/family/imac-vesa/attach"> <i class="fa fa-apple custom" style="font-size: 48px;"></i></a>
+		 <a href="https://www.mozilla.org/ar/firefox/new/">  <i class="fa fa-firefox custom" style="font-size: 48px;"></i></a>
+		  
+	  </div>
+		
+	</div>
+	<div class="login-page">
+	<div class="form">
+		<form name="form" class="register-form" onSubmit="return validateForm()" >
+		<input type="text" placeholder="Username" name="name"/>
+			<input type="text" id="psw" name="psw" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"/>
+			<input type="text" name="email" placeholder="Email Id"/>
+			<button>Create</button>
+			<p class="message">Already Registered? <a href="#">Login</a></p>
+<div id="message">
+  <h3>Password must contain the following:</h3>
+  <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
+  <p id="capital" class="invalid">A <b>capital (uppercase)</b> letter</p>
+  <p id="number" class="invalid">A <b>number</b></p>
+  <p id="length" class="invalid">Minimum <b>8 characters</b></p>
+</div>
+			</form>
+		<form name="form1" class="login-form" onSubmit="return validateForm1()" >
+			<input type="text" name="name1" placeholder="Username" />
+			<input type="text" name="psw1" placeholder="Password" />
+		    <button>Login</button>
+		    <p class="message">Not Registered? <a href="#">Register</a></p>
+		</form>
+		</div>
+	    </div>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js">
+	</script>
+	<script>
+	$('.message a').click(function(){
+    $('form').animate({height:"toggle",opacity:"toggle"},"slow");
+						  });
+	</script>
+	<script>
+var myInput = document.getElementById("psw");
+var letter = document.getElementById("letter");
+var capital = document.getElementById("capital");
+var number = document.getElementById("number");
+var length = document.getElementById("length");
+
+// When the user clicks on the password field, show the message box
+myInput.onfocus = function() {
+  document.getElementById("message").style.display = "block";
+}
+
+// When the user clicks outside of the password field, hide the message box
+myInput.onblur = function() {
+  document.getElementById("message").style.display = "none";
+}
+
+// When the user starts to type something inside the password field
+myInput.onkeyup = function() {
+  // Validate lowercase letters
+  var lowerCaseLetters = /[a-z]/g;
+  if(myInput.value.match(lowerCaseLetters)) { 
+    letter.classList.remove("invalid");
+    letter.classList.add("valid");
+  } else {
+    letter.classList.remove("valid");
+    letter.classList.add("invalid");
+}
+
+  // Validate capital letters
+  var upperCaseLetters = /[A-Z]/g;
+  if(myInput.value.match(upperCaseLetters)) { 
+    capital.classList.remove("invalid");
+    capital.classList.add("valid");
+  } else {
+    capital.classList.remove("valid");
+    capital.classList.add("invalid");
+  }
+
+  // Validate numbers
+  var numbers = /[0-9]/g;
+  if(myInput.value.match(numbers)) { 
+    number.classList.remove("invalid");
+    number.classList.add("valid");
+  } else {
+    number.classList.remove("valid");
+    number.classList.add("invalid");
+  }
+
+  // Validate length
+  if(myInput.value.length >= 8) {
+    length.classList.remove("invalid");
+    length.classList.add("valid");
+  } else {
+    length.classList.remove("valid");
+    length.classList.add("invalid");
+  }
+}
+</script>
+	<script>
+	function validateForm()
+		{
+			var valid =true;
+			
+			if(document.form.name.value==""){
+				alert("Username is Empty!");
+				document.form.name.focus();
+				valid=false;
+			}
+			else if(document.form.psw.value==""){
+				alert("Password is Empty!");
+				document.inputform.psw.focus();
+				valid=false;
+		}
+			return valid;
+			}
+	</script>
+	<script>
+	function validateForm1()
+		{
+			var valid =true;
+			
+			if(document.form1.name1.value==""){
+				alert("Username is Empty!");
+				document.form1.name1.focus();
+				valid=false;
+			}
+			else if(document.form1.psw1.value==""){
+				alert("Password is Empty!");
+				document.inputform.psw1.focus();
+				valid=false;
+		}
+			return valid;
+			}
+	</script>
+</body>
+</html>
